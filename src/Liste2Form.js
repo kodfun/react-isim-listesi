@@ -7,6 +7,7 @@ function Liste2Form() {
     const [ad, setAd] = useState("");
     const isimEklendiginde = e => {
         e.preventDefault();
+        // https://www.youtube.com/watch?v=lhMKvyLRWo0&list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM&index=10
         ctx.setAdlar([...ctx.adlar, ad]);
         setAd("");
     };
